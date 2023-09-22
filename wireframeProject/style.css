@@ -14,6 +14,8 @@ body {
 
 h2, h1 {
     margin-bottom: 1.25rem;
+    text-align: center;
+    padding-top: 1.25rem;
 }
 
 button {
@@ -39,6 +41,10 @@ nav {
 
 .nav__left img {
     width: 1.5rem;
+}
+
+.nav__left p {
+    margin-left: 2rem;
 }
 
 .nav__right {
@@ -97,20 +103,15 @@ nav {
     margin-bottom: 1%; /* Small marging so that the white line between the sections appears */
 }
 
-#emergency h2 {
-    text-align: center;
-}
-
 .emergency__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0.1rem; /* Set a small gap between grid items */
-    margin: 2rem;
+    padding: 2rem;
 }
 
 /* Styling for individual emergency cards within the container */
 .emergency__card {
-    border: solid; /* Add a border around emergency cards */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,6 +119,8 @@ nav {
     width: 80%;
     color: black;
     text-decoration: none;
+    margin: 1.5rem;
+    background-color: white;
 }
 
 /* Styling for links within the emergency container */
@@ -130,6 +133,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #c4c4c4; 
 }
 
 footer form {
