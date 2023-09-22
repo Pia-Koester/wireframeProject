@@ -1,18 +1,21 @@
-*{
+/* Resetting default browser styles*/
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Styling which should be applied to all elements in the body*/
 body {
     font-family: sans-serif;
-    background-color: #c4c4c4;
+    background-color: #c4c4c4; /* Set a light gray background color */
 }
 
+/* Styling for the navigation bar  - and making it flexbox*/
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #eaeaea;
+    background-color: #eaeaea; /* Set a light gray background color */
 }
 
 .nav__left {
@@ -27,14 +30,14 @@ nav {
     justify-content: space-between;
 }
 
+/* Styling for navigation links  to remove underlines and colors*/
 .nav__right li a {
     text-decoration: none;
-    color: black;
+    color: black; /* Set link color to black */
 }
 
-
+/* Styling for the duck section  - with flexbox*/
 #duck {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,20 +47,21 @@ nav {
     width: 40%;
 }
 
-.duck__right img{
+.duck__right img {
     width: 90%;
-    margin: 2%;
+    margin: 2%; /* Add a small margin around images */
 }
 
+/* Styling for the emergency section using grid */
 .emergency__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0.1rem;
-
+    grid-gap: 0.1rem; /* Set a small gap between grid items */
 }
 
+/* Styling for individual emergency cards within the container */
 .emergency__card {
-    border: solid;
+    border: solid; /* Add a border around emergency cards */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,11 +71,12 @@ nav {
     text-decoration: none;
 }
 
+/* Styling for links within the emergency container */
 .emergency__container a {
-    text-decoration: none;
+    text-decoration: none; /* Remove underlines from links */
 }
 
-
+/* Styling for the footer section */
 footer {
     display: flex;
     flex-direction: column;
@@ -84,27 +89,31 @@ footer form {
     width: 50%;
     align-items: center;
 }
+
 footer form input {
-    margin: 2%;
+    margin: 2%; /* Add margin to input fields */
 }
 
 footer form button {
     width: 30%;
-    margin: 2%;
+    margin: 2%; /* Add margin to buttons */
 }
 
+/* Styling for the author section within the footer */
 footer .author {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Styling for links within the footer */
 footer a {
     display: flex;
     justify-content: center;
 }
 
-footer img {
+/* Styling for author image */
+footer .author img {
     width: 10%;
-    border-radius: 50%;
+    border-radius: 50%; /* Apply a circular border to images */
 }
