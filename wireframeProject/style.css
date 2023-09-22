@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+    background-color: #c4c4c4;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: #eaeaea;
 }
 
 .nav__left {
@@ -16,16 +22,16 @@ nav {
 
 .nav__right {
     width: 80%;
-    text-decoration: none;
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-
-header {
-    
+.nav__right li a {
+    text-decoration: none;
+    color: black;
 }
+
 
 #duck {
 
@@ -57,7 +63,14 @@ header {
     align-items: center;
     height: 150px;
     width: 80%;
+    color: black;
+    text-decoration: none;
 }
+
+.emergency__container a {
+    text-decoration: none;
+}
+
 
 footer {
     display: flex;
@@ -69,6 +82,26 @@ footer form {
     display: flex;
     flex-direction: column;
     width: 50%;
+    align-items: center;
+}
+footer form input {
+    margin: 2%;
+}
+
+footer form button {
+    width: 30%;
+    margin: 2%;
+}
+
+footer .author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
 }
 
 footer img {
