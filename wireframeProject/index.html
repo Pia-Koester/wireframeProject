@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/wireframeProject/style.css" />
+    <!-- Linking to external CSS file -->
     <title>Wireframe Task</title>
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav>
+      <!-- Brand name and logo section -->
       <div class="nav__left">
         <img src="" alt="" />
         <p>Pia</p>
       </div>
+      <!-- Navigation elements for the landingpage -->
       <ul class="nav__right">
         <li><a href="#home">Home</a></li>
         <li><a href="#duck">Talk to the duck</a></li>
@@ -19,71 +23,88 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+
+    <!-- Header Section -->
     <header id="home">
-      <h1>< Hello World /></h1>
+      <h1>&lt; Hello World /&gt;</h1>
       <p>
         Introduction text Lorem ipsum dolor sit amet consectetur adipisicing
         elit. Perspiciatis, ipsam?
       </p>
     </header>
     <main>
+      <!-- Section for Rubber Ducky Information -->
       <section id="duck">
         <div class="duck__left">
           <h2>Rubber Ducky</h2>
           <p>
-            Text about this page > what is this for? and PS: Rubber Duck
-            Debugging (em & bold & underlined & a)
+            Text about this page &gt; what is this for? and PS: Rubber Duck
+            Debugging (em &amp; bold &amp; underlined &amp; a)
           </p>
           <button>Button</button>
         </div>
         <div class="duck__right">
           <a
             href="https://lilalu-shop.com/media/image/35/9c/a5/lilalu-quietscheente-gelb-yellow-rubber-duck-HL.png"
-            ><img
+          >
+            <img
               src="https://images.pexels.com/photos/2133193/pexels-photo-2133193.jpeg"
               alt="Giant inflatable rubber duck in a lake"
-          /></a>
+            />
+          </a>
         </div>
       </section>
+
+      <!-- Section for Emergency Links -->
       <section id="emergency">
         <h2>In Case of Emergency Click on</h2>
         <div class="emergency__container">
+          <!-- Emergency link cards with anchor tags -->
           <a
             href="https://discordapp.com/channels/641221910146842644/641593560394760200"
-            ><div class="emergency__card">Discord Student Help</div></a
           >
-          <a href="https://stackoverflow.com/"
-            ><div class="emergency__card">Stack Overflow</div></a
-          >
-          <a href="https://developer.mozilla.org"
-            ><div class="emergency__card">MDN</div></a
-          >
-          <a href="https://www.w3schools.com/"
-            ><div class="emergency__card">W3</div></a
-          >
-          <a href="https://medium.com/"
-            ><div class="emergency__card">Medium</div></a
-          >
-          <a href="https://www.codenewbie.org/podcast"
-            ><div class="emergency__card">Podcast</div></a
-          >
+            <div class="emergency__card">Discord Student Help</div>
+          </a>
+          <a href="https://stackoverflow.com/">
+            <div class="emergency__card">Stack Overflow</div>
+          </a>
+          <a href="https://developer.mozilla.org">
+            <div class="emergency__card">MDN</div>
+          </a>
+          <a href="https://www.w3schools.com/">
+            <div class="emergency__card">W3</div>
+          </a>
+          <a href="https://medium.com/">
+            <div class="emergency__card">Medium</div>
+          </a>
+          <a href="https://www.codenewbie.org/podcast">
+            <div class="emergency__card">Podcast</div>
+          </a>
         </div>
       </section>
     </main>
+
+    <!-- Footer Section -->
     <footer id="contact">
       <h2>Contact us</h2>
+      <!-- Form area for user's message -->
       <form>
-        <input type="text" />
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="text" placeholder="Please enter your Name" />
+        <textarea name="" id="" cols="30" rows="10">
+Please enter your Message</textarea
+        >
         <button>Submit</button>
+        <!-- Submit button for the form -->
       </form>
+      <!-- Display author or creator information -->
       <div class="author">
         <p>Proudly created by Pia</p>
         <a href="https://github.com/Pia-Koester">
           <img
             src="/wireframeProject/resources/portrait_pia.jpg"
             alt="portrait of Pia K."
-        /></a>
+          />
+        </a>
       </div>
     </footer>
   </body>
